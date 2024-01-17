@@ -1,0 +1,15 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SlideShowApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image x:Name="imgSlide" HorizontalAlignment="Left" Height="257" Margin="90,25,0,0" VerticalAlignment="Top" Width="610"/>
+        <Button x:Name="btnPrevImage" Content="E" HorizontalAlignment="Left" Margin="90,314,0,0" VerticalAlignment="Top" Height="55" Width="104" FontFamily="Wingdings" FontSize="48" Background="#FF3C9E2B"/>
+        <Button x:Name="btnNextImage" Content="F" HorizontalAlignment="Left" Margin="596,314,0,0" VerticalAlignment="Top" Height="55" Width="104" FontFamily="Wingdings" FontSize="48" Background="#FFE4791E"/>
+
+    </Grid>
+</Window>
